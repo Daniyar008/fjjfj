@@ -13,24 +13,32 @@
 <body>
     <header>
         <div class="container">
-            <h1>Сізді тойға шақырамыз!</h1>
-            <p>Бізбен бірге тойлауға ортақтасыңыз!</p>
+            <h1>Сізді салтанатты түрде тойға шақырамыз!</h1>
+            <p>Бізбен бірге қуанышымызды ортақтасыңыз!</p>
         </div>
     </header>
 
     <section class="details">
         <div class="container">
-            <h2><i class="fas fa-calendar-alt"></i> Мерекенің Мәліметтері</h2>
-            <p><strong>Күні:</strong> <input type="date" id="date" placeholder="Күні"></p>
-            <p><strong>Уақыты:</strong> <input type="time" id="time" placeholder="Уақыты"></p>
-            <p><strong>Өтетін жері:</strong> <input type="text" id="location" placeholder="Өтетін жері"></p>
+            <h2><i class="fas fa-calendar-alt"></i> Айжан & Қайрат</h2>
+            <p><strong>Күні:</strong> 25 желтоқсан 2024</p> <!-- Дата больше не изменяемая -->
+            <p><strong>Уақыты:</strong> 18:00</p> <!-- Время больше не изменяемое -->
+            <p><strong>Өтетін жері:</strong> Бөкейхан ауылы Інжу мейрамханасы</p> <!-- Место больше не изменяемое -->
+        </div>
+    </section>
+
+    <section class="photo-frame">
+        <div class="container">
+            <h2><i class="fas fa-camera"></i> Суретіміз</h2>
+            <div class="photo-wrapper">
+                <img src="photo.jpg" alt="Сурет" class="photo">
+            </div>
         </div>
     </section>
 
     <section class="rsvp">
         <div class="container">
-            <h2><i class="fas fa-envelope"></i> RSVP – Жауап Берілуі</h2>
-            <!-- Здесь добавлен action с Formspree -->
+            <h2><i class="fas fa-envelope"></i> Жауап Беру</h2>
             <form action="https://formspree.io/f/mblrvkqj" method="POST">
                 <input type="text" name="name" placeholder="Сіздің есіміңіз" required>
                 <input type="text" name="attendance" placeholder="Қатысасыз ба?" required>
